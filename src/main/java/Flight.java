@@ -46,7 +46,7 @@ public class Flight {
             }
         }
 
-        public Passenger findPassenger ( int id){
+        public Passenger findPassenger (int id){
             Passenger foundPassenger = null;
             for (Passenger passenger : passengers) {
                 if (passenger.getId() == id) {
